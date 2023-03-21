@@ -1,0 +1,30 @@
+.section__for{
+  width: 100%;
+  margin-top: 15em;
+  margin-bottom: 10em;
+}
+
+.section__for p{
+  width: 700px;
+  margin: 1em auto;
+}
+
+@media screen and (max-width: 769px){
+  body{
+    overflow-x: hidden;
+  }
+  .section__for{
+    padding: 10px;
+  }
+
+  .section__for h1{
+    font-size: 30px;
+    width: 80%;
+  }
+
+  .section__for p{
+    margin: 1em auto;
+    width: 85%;
+  }
+}
+

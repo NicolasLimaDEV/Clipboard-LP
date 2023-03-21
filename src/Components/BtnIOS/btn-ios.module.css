@@ -1,0 +1,34 @@
+.btn_ios{
+  width: 200px;
+  padding: 10px;
+  background-color: #26BBA4;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  box-shadow: 2px 4px 5px #128c7a;
+  margin-top: 1em;
+  margin-right: .5em;
+  cursor: pointer;
+  transition: 540ms;
+}
+
+.btn_ios a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.btn_ios:hover{
+  background: #128c7a;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px){
+  .btn_ios{
+    width: 100%;
+    padding: 15px;
+    margin-left: 0;
+    margin: 1em auto;
+  }
+}

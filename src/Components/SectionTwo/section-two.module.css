@@ -1,0 +1,45 @@
+section{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.container{
+  margin-top: 10em;
+  text-align: center;
+}
+
+.container h3{
+  font-size: 40px;
+  margin-bottom: 10px;
+} 
+
+.container p{
+  margin: 0 auto;
+  font-size: 18px;
+  width: 80%;
+}
+
+.container img{
+  margin: 5em auto;
+}
+
+@media (max-width: 768px){
+  section{
+    padding: 10px;
+  }
+
+  .container h3{
+    font-size: 30px;
+  }
+
+  .container p{
+    width: 100%;
+  }
+
+  .container img{
+    width: 100%;
+  }
+}
